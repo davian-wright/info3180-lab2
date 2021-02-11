@@ -1,3 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    padding-top: 5rem;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.profile .h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.profile {
+    background-color: #CED3DC;
+}
+
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#follow-button {
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-size: 20px;
+    background-color: #CED3DC;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 3px;
+    width: 85px;
+    height: 30px;
+    cursor: hand;
+}
+
+img {
+    align-content: center;
+    padding-top: 10px;
+    border-radius: 40%;
 }

@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block main %}
+
+
+
+
+<div class=profile>
+    <img src="{{url_for('static', filename='profile_pic.jpg')}}" alt="Profile photo" />
+    <h1><b>Davian Wright</b></h1>
+    <h3>@Swavo</h3>
+    <h3>Manchester, Jamaica</h3>
+    <h3>Joined {{ date }}</h3>
+</div><br>
+
+<p>I am a hard working person with a fascination for web and app develpoment. Contact me if you are seeking to work on a new project or simpply improve on existing skills.</p><br>
+
+<div class="row">
+    <div class="column">
+        <h2>13</h2>
+        <p>Posts</p>
+    </div>
+    <div class="column">
+        <h2>7</h2>
+        <p>Following</p>
+    </div>
+    <div class="column">
+        <h2>80</h2>
+        <p>Followers</p>
+    </div>
+</div><br>
+
+<button id="follow-button">Follow</button> {% endblock %}
